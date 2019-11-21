@@ -1,0 +1,8 @@
+[?2004h[?1049h[?1h=[?2004h[1;18r[?12h[?12l[27m[29m[m[H[2J[?25l[18;1H"~/.runsauce.json" 36L, 961C[1;1H{
+    "prod": {[3;9H"server": "ondemand.saucelabs.com",[4;9H"port": 80,[5;9H"userName": "dangr",[6;9H"accessKey": "a6aeac56-9a7a-43ed-998e-827acbef9fa8"
+    },
+    "saucelocal": {[9;9H"server": "localhost",[10;9H"port": 4444,[11;9H"userName": "admin",[12;9H"accessKey": "0e779f56-385a-41be-a562-6f6908bf5acf"
+    },
+    "staging": {[15;9H"server": "ondemand.staging.saucelabs.net",[16;9H"port": 80,[17;9H"userName": "admin",[1;1H[?25h[?25l[18;1HType  :qa!  and press <Enter> to abandon all changes and exit Vim[1;1H[?25h[?25l[?25h[18;1H[?2004l[?1l>[?1049lVim: Caught deadly signal HUP
+Vim: Finished.
+[18;1H

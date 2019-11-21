@@ -1,7 +1,7 @@
 {
     "tests": [
       {
-        "test": ["ios_hybrid"],
+        "test": ["ios"],
         "device": [
             "iPhone Simulator",
             "iPhone 5s Simulator",
@@ -38,8 +38,8 @@
         "testName": "iOS_12_hybrid"
       }
     ],
-    "config": "frankfurt",
+    "config": "prod",
     "build": "appium-smoke-%t",
-    "processes": 10
+    "processes": 30
   }
   

@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "test": ["ios_hybrid"],
+      "test": ["web"],
       "device": [
         "iPhone Simulator",
         "iPhone 6s Simulator",
