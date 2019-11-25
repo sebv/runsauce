@@ -40,7 +40,7 @@
         "browser": "Chrome"
       }
     ],
-    "config": "local-sauce",
+    "config": "saucelocal",
     "build": "appium-smoke-%t",
     "processes": 5
   }
