@@ -37,12 +37,12 @@
         ],
         "platform": "Android",
         "version": ["9.0", "8.0", "7.1", "7.0", "6.0", "5.1"],
-        "backendVersion": ["1.13.0"],
+        "backendVersion": ["1.15.0"],
         "extraCaps": "{\"automationName\": \"UiAutomator2\"}",
         "browser": "Chrome"
       }
     ],
-    "config": "local-sauce",
+    "config": "prod",
     "build": "appium-smoke-%t",
-    "processes": 5
+    "processes": 30
   }

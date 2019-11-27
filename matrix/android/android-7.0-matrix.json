@@ -1,9 +1,8 @@
 {
     "tests": [
       {
-        "test": ["android"],
+        "test": ["android_hybrid", "android", "web"],
         "device": [
-            "Android Emulator",
             "Android GoogleAPI Emulator",
             "Samsung Galaxy Tab S3 GoogleAPI Emulator",
             "Samsung Galaxy Tab A 10 GoogleAPI Emulator",
@@ -34,13 +33,13 @@
             "Google Pixel C GoogleAPI Emulator"
         ],
         "platform": "Android",
-        "version": ["8.0"],
-        "backendVersion": ["1.13.0"],
+        "version": ["7.0"],
+        "backendVersion": ["1.15.0"],
         "extraCaps": "{\"automationName\": \"UiAutomator2\"}",
         "browser": "Chrome"
       }
     ],
-    "config": "saucelocal",
+    "config": "prod",
     "build": "appium-smoke-%t",
-    "processes": 5
+    "processes": 30
   }
