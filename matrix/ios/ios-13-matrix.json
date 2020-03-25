@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "test": ["web"],
+      "test": ["ios"],
       "device": [
         "iPhone Simulator",
         "iPhone 6s Simulator",
@@ -34,7 +34,7 @@
       ],
       "platform": "iOS",
       "version": ["13.0"],
-      "backendVersion": ["1.15.0"],
+      "backendVersion": ["1.16.0"],
       "browser": "Safari",
       "testName": "iOS_12_hybrid"
     }
