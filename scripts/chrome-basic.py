@@ -19,8 +19,8 @@ host = ("http://%s:%s@ondemand.saucelabs.com/wd/hub" % (SAUCE_USERNAME, SAUCE_AC
 #host = 'http://admin:0e779f56-385a-41be-a562-6f6908bf5acf@localhost:4444/wd/hub'
 driver = webdriver.Remote(host, caps)
 
-driver.get('chrome://version')
+driver.url('chrome://version')
 result = driver.page_source
 print(result)
 
-driver.quit()
+driver.deleteSession()

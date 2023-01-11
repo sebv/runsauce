@@ -24,4 +24,4 @@ driver.execute_script('mobile: shell', {'command': 'am start -a android.intent.a
 result = driver.page_source
 print(result)
 
-driver.quit()
+driver.deleteSession()
