@@ -26,4 +26,4 @@ result = driver.execute_script('mobile: shell', {
 })
 print(result)
 
-driver.quit()
+driver.deleteSession()

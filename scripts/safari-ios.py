@@ -23,9 +23,9 @@ caps['appiumVersion'] = "1.16.0"
 host = "http://admin:0e779f56-385a-41be-a562-6f6908bf5acf@ondemand.10.254.246.125.xip.io:4444/wd/hub"
 driver = webdriver.Remote(host, caps)
 print('Getting google')
-driver.get('http://www.google.com')
+driver.url('http://www.google.com')
 result = driver.page_source
 print(result)
 print('Got it')
 
-driver.quit()
+driver.deleteSession()

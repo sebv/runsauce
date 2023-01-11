@@ -24,4 +24,4 @@ driver = webdriver.Remote(host, caps)
 result = driver.set_location(49, -123, 0)
 print(driver.location)
 
-driver.quit()
+driver.deleteSession()
